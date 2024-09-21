@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ashut\\Desktop\\Private Project C# Asp\\Electronic DocuSign Signature\\Electronic DocuSign Signature.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ashut\\Desktop\\Private Project C# Asp\\Electronic DocuSign Signature\\Electronic DocuSign Signature.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ashut\\Desktop\\Private Project C# Asp\\Electronic DocuSign Signature\\Electronic DocuSign Signature.csproj",
+        "projectName": "Electronic DocuSign Signature",
+        "projectPath": "C:\\Users\\ashut\\Desktop\\Private Project C# Asp\\Electronic DocuSign Signature\\Electronic DocuSign Signature.csproj",
+        "packagesPath": "C:\\Users\\ashut\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ashut\\Desktop\\Private Project C# Asp\\Electronic DocuSign Signature\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ashut\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "DocuSign.eSign.dll": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Octokit": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
